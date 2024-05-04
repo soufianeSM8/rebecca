@@ -1,0 +1,193 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  @media (min-width: 1281px) {
+
+    .our_process_flex,.follow_instagram_boxes{justify-content: center;}
+
+
+  }
+  /*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+    .We_believe_img {margin-left: 20px;}
+    .be_fa_wa_box{width: 30%;}
+    .Blooms_boxes, .marble_boxes, .gridded_boxes{width: 32%; height: auto;}
+    .our_process_flex{justify-content: center;}
+    .nav_footer ul li {margin: 0 15px;}
+    .brand_box img {width: 240px;}
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px)  {
+      /************* start header ********/
+      /************ start main ************/
+   /*--- We_believe_in_the_art ---*/
+   .We_believe_info, .We_believe_img{width: 50%;}
+   .We_believe_img{margin-left: 0;}
+
+     /*--- be_fa_wa_boxes ---*/
+     .flex{justify-content: space-around;}
+     .be_fa_wa_box{width: 26vw;}
+     /*--- ra_at_home ---*/
+     /*--- featured_favorites ---*/
+
+     .Blooms_boxes,.marble_boxes,.gridded_boxes{height: auto;}
+      /*--- rebecca_atwood---*/
+       /*--- brand ---*/
+        /*---  our_process ---*/
+        .our_process_flex{justify-content: center;}
+         /*--- the_fold ---*/
+         /*********** start footer ***********/
+          /*--- ---*/
+           /*--- ---*/
+           .follow_instagram_boxes{justify-content: center;}
+           .insta-box{margin: 2px;width: 25%;}
+  }
+  /*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  @media (min-width: 320px) and (max-width: 767px) {
+    /**/
+    .search{display: none;}
+    .randl_flex{justify-content: space-between !important;}
+    /*We_believe_in_the_art*/
+    .We_believe_container {width: 100%;}
+    .We_believe_in_the_art{margin: 30px 0;}
+    .We_believe_info {margin: 0; border: none; text-align: center;}
+    .We_believe_info h2::after {bottom: -10px; width: 100px; left: 50%; transform: translateX(-50%);}
+    .We_believe_info p {margin: 40px auto 0;}
+    .We_believe_info a{margin: 15px auto 0;}
+    .We_believe_img {margin: 20px 0 0 0;}
+    /*.be_fa_wa_boxes*/
+    .be_fa_wa_boxes {padding:  60px 0;}
+    .contFlex {justify-content: center;}
+   /**/
+   .flex_center,.content-flex{justify-content: center;}
+    /*ra_at_home*/
+   .ra_at_home {height: 400px;}
+/*  */
+   .rebecca_atwood_heading p{width: 80%; margin: 20px auto 0;font-size: 14px;}
+   .rebecca_atwood_slider{width: auto;}
+   .rebecca_atwood_info{width: 80%;height: 40%;}
+
+   .rebecca_atwood_info h3::after{display: none;}
+   .rebecca_atwood_info p{font-size: 4vw; width: 80%; margin: 60px auto 0;}
+   .rebecca_atwood_info h3{font-size: 14px;margin-top: 20px;}
+   /**/
+   .our_process_btn2 {z-index: 2; margin: 0 7%;}
+   /*  */
+   .our_process_box .our_process_box_info,.the_fold_info{width: 83%;}
+ .the_fold_border::before{width: 94%;left: 50%; transform: translateX(-50%);}
+   .our_process_box .our_process_box_info p,.the_fold_info h2{width: 80%; margin-left: auto;margin-right: auto;}
+   .the_fold_info h2::after{left: 50%;transform: translateX(-50%);bottom: -10px;}
+   .the_fold_heading p{ margin:30px auto 0}
+   .the_fold_box {height: 400px;width: 100%;}
+   /**/
+   .join_our_newsletter_info p{width: 90%;margin:20px auto 30px;}
+   .join_our_newsletter {height: auto;}
+   .join_our_newsletter_info {margin-top: 30px;}
+   /**/
+   .follow_instagram_boxes{justify-content: center;}
+   .insta-box{margin: 2px;}
+   /**/
+   .nav_footer{height: auto;}
+   .nav_footer ul{margin-top: 0; padding: 10px 0;}
+  }
+  /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  @media (min-width: 320px) and (max-width: 480px) {
+    /*
+    start header
+    */
+    /*-------- global property*/
+    /*------ display none -------*/
+    .randl_note_sh,.our_process_btn {display: none;}
+   /*-- randl_note_sh --*/
+   /*-- Landlist --*/
+   .logo a {font-size: 12px;}
+  /*------------- start main -----------*/
+    /*We_believe_in_the_art*/
+    /*be_fa_wa_boxes*/
+    .be_fa_wa_box {height: 280px;}
+    .bedding_box_img, .fabric_box_img, .wallpaper_box_img {height: 210px;}
+    /*ra_at_home*/
+    .ra_at_home_info{width: 70vw;}
+
+    .ra_at_home_info a h1 {font-size: 8vw;}
+    .ra_at_home_info a span{font-size: 5vw;}
+    /*featured_favorites*/
+    .featured_favorites {margin: 50px 0;}
+    .featured_favorites_heading {margin: 70px 0 30px;}
+    .featured_favorites_heading h1{font-size: 8vw;}
+    .Blooms_boxes, .marble_boxes, .gridded_boxes{height: auto; margin: 10px 0;}
+    .featured_box {padding: 50px 0;}
+    .rebecca_atwood_heading{margin-top: 50px;}
+    /*rebecca_atwood*/
+
+    /*brand*/
+    .brand_box { margin: 0 auto; overflow: hidden;}
+    .brand_box img {width: 100%; }
+    /*our_process*/
+    .our_process_slider{height: 400px; width: 100%;}
+
+
+
+    .our_process_box .our_process_box_info p,.the_fold_info h2{font-size: 4vw; width: 23%; margin: 10px auto 0;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+    /*the_fold*/
+
+    .the_fold_info a{margin: 30px auto 0; display: table;}
+    /************ start footer***********/
+    .join_our_newsletter_info {text-align: center;}
+    .join_our_newsletter_info p{line-height: 30px;font-size: 14px;}
+    .join_our_newsletter_info input{width: 100%;margin: 0 auto;display: block;}
+    .join_our_newsletter_info button{margin-top: 10px; width: 80px;height: 40px; font-size: 14px;}
+    /**/
+
+    /**/
+    .nav_footer ul{text-align: center;margin-top: 10px;}
+    .nav_footer ul li {margin: 7px 5px; font-size: 12px;}
+    .nav_footer{height: auto;}
+    .social_footer{width: auto;}
+    .copyright{width: auto;}
+  }
+  /***************************************/
+  @media (min-width: 320px) and (max-width:1024px) {
+      /* global property*/
+      /* ------ display none -------*/
+      .nav_list,.box-maps-info,.box-maps-info,.Blooms_img img:nth-of-type(2), .marble_img img:nth-of-type(2), .gridded_img img:nth-of-type(2),.bedding_box_info,.fabric_box_info,.wallpaper_box_info,.insta_info {display: none !important;}
+      .Blooms_info span, .marble_info span, .gridded_info span,.openMenuBtn {display: block;}
+      /*------ display block -------*/
+    /********** start header*************/
+    .landl_flex{justify-content: space-between;}
+    /***********start main*************/
+    /*maps_product*/
+    /*We_believe_in_the_art*/
+    .our_process_btn3::before {width: 135px;top: 13px; left: -111px;}
+    .our_process_btn1::before {top: 13px; left: 68px;}
+    /*be_fa_wa_boxes*/
+    .We_believe_info a,.our_process_box .our_process_box_info a{ text-decoration: none !important;}
+    .be_fa_wa_box{cursor: pointer;}
+    /*ra_at_home*/
+    .ra_at_home_info a{color: #4a4a4a !important;}
+    /*featured_favorites*/
+
+    .Blooms_boxes, .marble_boxes, .gridded_boxes{cursor: pointer;}
+    /*rebecca_atwood*/
+    /*brand*/
+    /*our_process*/
+    .our_process_btn button{background-color: #fff !important; color: #4a4a4a !important;}
+    /*the_fold*/
+
+
+    /********** start footer***********/
+
+
+  }
